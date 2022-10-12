@@ -1,0 +1,61 @@
+dst:
+	ip.dst
+	ip.dstport
+	ipv6.dst
+	port.dst
+	port.dst.all
+	port.trans.dst
+src:
+	ip.src
+	ip.srcport
+	ipv6.src
+	port.src
+	port.src.all
+	port.trans.src
+event.id:
+	event.type
+	event.source
+	event.computer
+	event.cat.name
+	event.class
+	reference_id
+	event.time
+process:
+	process.src
+	process.vid.src
+	process.vid.dst
+	process
+logon type:
+	logon.type
+	logon.type.desc
+account name:
+	NA
+c-uri-extension:
+ 	extension
+c-user agent:
+	user.agent
+r-dns:
+	NA
+host:
+	host.all
+	host.src
+	host.dst
+	host.orig
+	host.role
+	host.state
+c.uri.query:
+	query
+c.uri:
+	NA
+cs-method:
+	NA
+cs-cookie:
+	NA
+subject user name:
+	subject
+username:
+	username
+	user.src
+	user.all
+	user.dst
+	user
